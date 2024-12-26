@@ -1,0 +1,74 @@
+*{
+    font-family:Poppins,Lato;
+}   
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(13, 134, 226);
+  }
+
+  #digitalclock{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+      
+@keyframes glow {
+        from {
+          text-shadow: 2px 2px 5px rgba(21, 190, 69, 0.4);
+        }
+        to {
+          text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.8);
+        }
+      }
+    
+      
+#button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 2px 2px;
+        font-size: 10px;
+        cursor: pointer;
+        box-shadow: 0px 4px 15px rgba(220, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+      }
+      
+#button:hover {
+        background-color: rgb(243, 5, 5);
+      }
+      
+
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+ 
+  footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: rgb(18, 17, 17);
+    font-size: 14px;
+    background-color: #e4d2d2;
+  }
+  
+  
+  

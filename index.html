@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="clockstyle.css">
+</head>
+<body>
+
+    <!-- Digital Watch -->
+
+    <div id="mainbox" class="mainbox">
+    <div id="digitalclock" class="digitalclock">
+        00:00:00
+    </div>
+    </div>
+
+    
+    <!-- button -->
+    <div id="button">
+        <button id="play-sound">🔊</button>
+    </div>
+
+
+    <!-- audio -->
+    <audio id="beach-audio" src="./Oceansound.mp3" autoplay loop ></audio>
+
+
+    <!-- video -->
+    <video loading="lazy" autoplay muted loop>
+        <source src="./beachvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+
+    <footer>
+        Created with ❤️ by Abhinav Shukla
+    </footer>
+
+    <script src="clock.js"></script>
+</body>
+</html>
